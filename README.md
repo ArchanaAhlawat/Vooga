@@ -1,8 +1,5 @@
-**CompSci 308: VOOGASalad Analysis**
-===================
-
-> This is the link to the assignment: [VOOGASalad](http://www.cs.duke.edu/courses/compsci308/current/assign/04_voogasalad/)
-
+**Vooga**
+Vooga provides a game authoring environment for users to create games with custom objects (drawn or uploaded) and custom backgrounds, specify termination or leveling up conditions, give custom attributes and actions to objects, and generate dialogue scenes. Users can save these games in authoring format for future editing, and can also play their own games. Vooga can support role-playing games, scrolling games, tower defense, and turn-based strategy games. Further information about code design and how to use the interface is found below.
 
 **Design Review**
 ============
@@ -52,7 +49,7 @@ I think that the sprite subpackage of engine is more encapsulated that the actio
 
 After reading my teammates' code, especially engine code, I have learned the importance of leaving really detailed and understandable javadoc comments.  Engine code was so much easier to understand because of javadoc comments that directly explained why a particular class was important and useful, and how it relates to other classes.  Additionally, this project in general as well my experience looking through authoring code versus engine code, I understand more the importance of consciously building modular code instead of just continuously adding more code on top of existing code.  Adding authoring elements would have been much easier if people had initially plotted out the design and potential hierarchies earlier on.
 
-### Your Design
+### My Design
 
 Here are the main classes I edited, created or worked on, and debugged: AuthoringEnvironmentManager, AuthoringMapStackPane, DraggableGrid, MainAuthoringGUI, MapManager, SpriteGridHandler, Toolbar, Layer (+ its 4 concrete implemented classes), SpriteObjectGridManager (+ its 5 concrete implemented classes), DisplayPanel, SpritePanels, AuthoringController, GameDataHandler, SpriteDataConverter, LayerDataConverter, MapDataConverter, SpriteSet, SpriteSetImported, and SpriteSetImportedInventory.
 
