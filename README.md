@@ -1,4 +1,6 @@
 **Vooga**
+==========
+
 Vooga provides a game authoring environment for users to create games with custom objects (drawn or uploaded) and custom backgrounds, specify termination or leveling up conditions, give custom attributes and actions to objects, and generate dialogue scenes. Users can save these games in authoring format for future editing, and can also play their own games. Vooga can support role-playing games, scrolling games, tower defense, and turn-based strategy games. Further information about code design and how to use the interface is found below.
 
 **Design Review**
